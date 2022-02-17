@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd api && venv/bin/flask run"
+    "start": "venv/bin/flask run"
   },
   "author": "",
   "license": "ISC"
