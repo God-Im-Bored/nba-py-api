@@ -1,1 +1,1 @@
-web: python3 venv/bin/flask run
+web: gunicorn nba-api:app
