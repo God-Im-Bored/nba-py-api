@@ -1,1 +1,1 @@
-web: python3 venv/bin/flask run
+web: FLASK_APP=api.py flask run 
