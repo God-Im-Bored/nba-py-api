@@ -54,5 +54,4 @@ def player_info(player_name, season):
             player_data= json.loads(response.get_json())
     return {'player_data': player_data}
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
